@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#myButton{
+    font-size: 3em;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 40px 0px;
+    background-color: aqua;
+    color: white;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.myLables{
+    font-size: 5em;
+    padding: 20px;
+}
+
+#myButton:hover{
+    font-size: 3.3em;
+    background-color: aquamarine;
+}
